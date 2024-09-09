@@ -71,8 +71,11 @@ Selection Sort is primarily used in educational contexts to illustrate sorting a
 
 - Inefficient for large lists (O(n²) time complexity).
 - Performance does not improve with partially sorted arrays.
+- **Not Stable**: Selection Sort is not a stable sorting algorithm. Equal elements may not retain their original relative order after sorting.
+- **Not Adaptive**: Selection Sort is not adaptive. It does not take advantage of existing order in the input data to improve performance, and always performs the same number of operations regardless of the initial order.
 
 ## Conclusion
 
-Selection Sort is a fundamental algorithm in computer science that provides a clear example of sorting techniques. Although not suitable for large datasets, its straightforward approach and in-place nature make it an excellent educational tool.
+Selection Sort is a fundamental algorithm in computer science that provides a clear example of sorting techniques. Although not suitable for large datasets, its straightforward approach and in-place nature make it an excellent educational tool. Its lack of stability and adaptability are key limitations, making it less suitable for scenarios where these properties are important.
 
+--- 
