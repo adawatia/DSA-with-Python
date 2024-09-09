@@ -1,8 +1,14 @@
+---
+
 # Selection Sort Algorithm
 
 ## Overview
 
 Selection Sort is a simple and intuitive sorting algorithm. It works by repeatedly finding the minimum element from the unsorted portion of the list and moving it to the beginning. This algorithm is not the most efficient for large datasets but is useful for its simplicity and ease of implementation.
+
+### Why is it called Selection Sort?
+
+The algorithm is called "Selection Sort" because it repeatedly **selects** the smallest (or largest, depending on sorting order) element from the unsorted portion of the list and places it at its correct position in the sorted portion. The process of selecting the minimum element from the unsorted part and swapping it with the first unsorted element is key to its name.
 
 ## How It Works
 
@@ -78,4 +84,4 @@ Selection Sort is primarily used in educational contexts to illustrate sorting a
 
 Selection Sort is a fundamental algorithm in computer science that provides a clear example of sorting techniques. Although not suitable for large datasets, its straightforward approach and in-place nature make it an excellent educational tool. Its lack of stability and adaptability are key limitations, making it less suitable for scenarios where these properties are important.
 
---- 
+---
